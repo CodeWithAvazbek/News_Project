@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Category, News
+from .models import Category, News, Contact
 
 
 @admin.register(News)
@@ -15,3 +15,8 @@ class NewsAdmin(admin.ModelAdmin):
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ('id', 'name')
+
+
+@admin.register(Contact)
+class ContactAdmin(admin.ModelAdmin):
+    list_display = ('id', 'name', 'email', 'message')

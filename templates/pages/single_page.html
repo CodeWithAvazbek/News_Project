@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,18 +6,18 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/animate.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/font.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/li-scroller.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/slick.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/jquery.fancybox.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/theme.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="{% static 'assets/css/bootstrap.min.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'assets/css/font-awesome.min.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'assets/css/animate.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'assets/css/font.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'assets/css/li-scroller.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'assets/css/slick.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'assets/css/jquery.fancybox.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'assets/css/theme.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'assets/css/style.css' %}">
 <!--[if lt IE 9]>
-<script src="../assets/js/html5shiv.min.js"></script>
-<script src="../assets/js/respond.min.js"></script>
+<script src="{% static 'assets/js/html5shiv.min.js' %}"></script>
+<script src="{% static 'assets/js/respond.min.js' %}"></script>
 <![endif]-->
 </head>
 <body>
@@ -43,8 +44,8 @@
       </div>
       <div class="col-lg-12 col-md-12 col-sm-12">
         <div class="header_bottom">
-          <div class="logo_area"><a href="../index.html" class="logo"><img src="../images/logo.jpg" alt=""></a></div>
-          <div class="add_banner"><a href="#"><img src="../images/addbanner_728x90_V1.jpg" alt=""></a></div>
+          <div class="logo_area"><a href="../index.html" class="logo"><img src="{% static 'images/logo.jpg' %}" alt=""></a></div>
+          <div class="add_banner"><a href="#"><img src="{% static 'images/addbanner_728x90_V1.jpg' %}" alt=""></a></div>
         </div>
       </div>
     </div>
@@ -80,15 +81,15 @@
       <div class="col-lg-12 col-md-12">
         <div class="latest_newsarea"> <span>Latest News</span>
           <ul id="ticker01" class="news_sticker">
-            <li><a href="#"><img src="../images/news_thumbnail3.jpg" alt="">My First News Item</a></li>
-            <li><a href="#"><img src="../images/news_thumbnail3.jpg" alt="">My Second News Item</a></li>
-            <li><a href="#"><img src="../images/news_thumbnail3.jpg" alt="">My Third News Item</a></li>
-            <li><a href="#"><img src="../images/news_thumbnail3.jpg" alt="">My Four News Item</a></li>
-            <li><a href="#"><img src="../images/news_thumbnail3.jpg" alt="">My Five News Item</a></li>
-            <li><a href="#"><img src="../images/news_thumbnail3.jpg" alt="">My Six News Item</a></li>
-            <li><a href="#"><img src="../images/news_thumbnail3.jpg" alt="">My Seven News Item</a></li>
-            <li><a href="#"><img src="../images/news_thumbnail3.jpg" alt="">My Eight News Item</a></li>
-            <li><a href="#"><img src="../images/news_thumbnail2.jpg" alt="">My Nine News Item</a></li>
+            <li><a href="#"><img src="{% static 'images/news_thumbnail3.jpg' %}" alt="">My First News Item</a></li>
+            <li><a href="#"><img src="{% static 'images/news_thumbnail3.jpg' %}" alt="">My Second News Item</a></li>
+            <li><a href="#"><img src="{% static 'images/news_thumbnail3.jpg' %}" alt="">My Third News Item</a></li>
+            <li><a href="#"><img src="{% static 'images/news_thumbnail3.jpg' %}" alt="">My Four News Item</a></li>
+            <li><a href="#"><img src="{% static 'images/news_thumbnail3.jpg' %}" alt="">My Five News Item</a></li>
+            <li><a href="#"><img src="{% static 'images/news_thumbnail3.jpg' %}" alt="">My Six News Item</a></li>
+            <li><a href="#"><img src="{% static 'images/news_thumbnail3.jpg' %}" alt="">My Seven News Item</a></li>
+            <li><a href="#"><img src="{% static 'images/news_thumbnail3.jpg' %}" alt="">My Eight News Item</a></li>
+            <li><a href="#"><img src="{% static 'images/news_thumbnail2.jpg' %}" alt="">My Nine News Item</a></li>
           </ul>
           <div class="social_area">
             <ul class="social_nav">
@@ -118,7 +119,7 @@
             </ol>
             <h1>Morbi dapibus, enim quis luctus interdum</h1>
             <div class="post_commentbox"> <a href="#"><i class="fa fa-user"></i>Wpfreeware</a> <span><i class="fa fa-calendar"></i>6:49 AM</span> <a href="#"><i class="fa fa-tags"></i>Technology</a> </div>
-            <div class="single_page_content"> <img class="img-center" src="../images/single_post_img.jpg" alt="">
+            <div class="single_page_content"> <img class="img-center" src="{% static 'images/single_post_img.jpg' %}" alt="">
               <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula, lacus justo semper libero, quis porttitor turpis odio sit amet ligula. Duis dapibus fermentum orci, nec malesuada libero vehicula ut. Integer sodales, urna eget interdum eleifend, nulla nibh laoreet nisl, quis dignissim mauris dolor eget mi. Donec at mauris enim. Duis nisi tellus, adipiscing a convallis quis, tristique vitae risus. Nullam molestie gravida lobortis. Proin ut nibh quis felis auctor ornare. Cras ultricies, nibh at mollis faucibus, justo eros porttitor mi, quis auctor lectus arcu sit amet nunc. Vivamus gravida vehicula arcu, vitae vulputate augue lacinia faucibus.</p>
               <blockquote> Donec volutpat nibh sit amet libero ornare non laoreet arcu luctus. Donec id arcu quis mauris euismod placerat sit amet ut metus. Sed imperdiet fringilla sem eget euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque adipiscing, neque ut pulvinar tincidunt, est sem euismod odio, eu ullamcorper turpis nisl sit amet velit. Nullam vitae nibh odio, non scelerisque nibh. Vestibulum ut est augue, in varius purus. </blockquote>
               <ul>
@@ -157,17 +158,17 @@
               <h2>Related Post <i class="fa fa-thumbs-o-up"></i></h2>
               <ul class="spost_nav wow fadeInDown animated">
                 <li>
-                  <div class="media"> <a class="media-left" href="single_page.html"> <img src="../images/post_img1.jpg" alt=""> </a>
+                  <div class="media"> <a class="media-left" href="single_page.html"> <img src="{% static 'images/post_img1.jpg' %}" alt=""> </a>
                     <div class="media-body"> <a class="catg_title" href="single_page.html"> Aliquam malesuada diam eget turpis varius</a> </div>
                   </div>
                 </li>
                 <li>
-                  <div class="media"> <a class="media-left" href="single_page.html"> <img src="../images/post_img2.jpg" alt=""> </a>
+                  <div class="media"> <a class="media-left" href="single_page.html"> <img src="{% static 'images/post_img2.jpg' %}" alt=""> </a>
                     <div class="media-body"> <a class="catg_title" href="single_page.html"> Aliquam malesuada diam eget turpis varius</a> </div>
                   </div>
                 </li>
                 <li>
-                  <div class="media"> <a class="media-left" href="single_page.html"> <img src="../images/post_img1.jpg" alt=""> </a>
+                  <div class="media"> <a class="media-left" href="single_page.html"> <img src="{% static 'images/post_img1.jpg' %}" alt=""> </a>
                     <div class="media-body"> <a class="catg_title" href="single_page.html"> Aliquam malesuada diam eget turpis varius</a> </div>
                   </div>
                 </li>
@@ -191,22 +192,22 @@
             <h2><span>Popular Post</span></h2>
             <ul class="spost_nav">
               <li>
-                <div class="media wow fadeInDown"> <a href="single_page.html" class="media-left"> <img alt="" src="../images/post_img1.jpg"> </a>
+                <div class="media wow fadeInDown"> <a href="single_page.html" class="media-left"> <img alt="" src="{% static 'images/post_img1.jpg' %}"> </a>
                   <div class="media-body"> <a href="single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 1</a> </div>
                 </div>
               </li>
               <li>
-                <div class="media wow fadeInDown"> <a href="single_page.html" class="media-left"> <img alt="" src="../images/post_img2.jpg"> </a>
+                <div class="media wow fadeInDown"> <a href="single_page.html" class="media-left"> <img alt="" src="{% static 'images/post_img2.jpg' %}"> </a>
                   <div class="media-body"> <a href="single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 2</a> </div>
                 </div>
               </li>
               <li>
-                <div class="media wow fadeInDown"> <a href="single_page.html" class="media-left"> <img alt="" src="../images/post_img1.jpg"> </a>
+                <div class="media wow fadeInDown"> <a href="single_page.html" class="media-left"> <img alt="" src="{% static 'images/post_img1.jpg' %}"> </a>
                   <div class="media-body"> <a href="single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 3</a> </div>
                 </div>
               </li>
               <li>
-                <div class="media wow fadeInDown"> <a href="single_page.html" class="media-left"> <img alt="" src="../images/post_img2.jpg"> </a>
+                <div class="media wow fadeInDown"> <a href="single_page.html" class="media-left"> <img alt="" src="{% static 'images/post_img2.jpg' %}"> </a>
                   <div class="media-body"> <a href="single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 4</a> </div>
                 </div>
               </li>
@@ -238,22 +239,22 @@
               <div role="tabpanel" class="tab-pane" id="comments">
                 <ul class="spost_nav">
                   <li>
-                    <div class="media wow fadeInDown"> <a href="single_page.html" class="media-left"> <img alt="" src="../images/post_img1.jpg"> </a>
+                    <div class="media wow fadeInDown"> <a href="single_page.html" class="media-left"> <img alt="" src="{% static 'images/post_img1.jpg' %}"> </a>
                       <div class="media-body"> <a href="single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 1</a> </div>
                     </div>
                   </li>
                   <li>
-                    <div class="media wow fadeInDown"> <a href="single_page.html" class="media-left"> <img alt="" src="../images/post_img2.jpg"> </a>
+                    <div class="media wow fadeInDown"> <a href="single_page.html" class="media-left"> <img alt="" src="{% static 'images/post_img2.jpg' %}"> </a>
                       <div class="media-body"> <a href="single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 2</a> </div>
                     </div>
                   </li>
                   <li>
-                    <div class="media wow fadeInDown"> <a href="single_page.html" class="media-left"> <img alt="" src="../images/post_img1.jpg"> </a>
+                    <div class="media wow fadeInDown"> <a href="single_page.html" class="media-left"> <img alt="" src="{% static 'images/post_img1.jpg' %}"> </a>
                       <div class="media-body"> <a href="single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 3</a> </div>
                     </div>
                   </li>
                   <li>
-                    <div class="media wow fadeInDown"> <a href="single_page.html" class="media-left"> <img alt="" src="../images/post_img2.jpg"> </a>
+                    <div class="media wow fadeInDown"> <a href="single_page.html" class="media-left"> <img alt="" src="{% static 'images/post_img2.jpg' %}"> </a>
                       <div class="media-body"> <a href="single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 4</a> </div>
                     </div>
                   </li>
@@ -263,7 +264,7 @@
           </div>
           <div class="single_sidebar wow fadeInDown">
             <h2><span>Sponsor</span></h2>
-            <a class="sideAdd" href="#"><img src="../images/add_img.jpg" alt=""></a> </div>
+            <a class="sideAdd" href="#"><img src="{% static 'images/add_img.jpg' %}" alt=""></a> </div>
           <div class="single_sidebar wow fadeInDown">
             <h2><span>Category Archive</span></h2>
             <select class="catgArchive">
@@ -327,13 +328,13 @@
     </div>
   </footer>
 </div>
-<script src="../assets/js/jquery.min.js"></script> 
-<script src="../assets/js/wow.min.js"></script> 
-<script src="../assets/js/bootstrap.min.js"></script> 
-<script src="../assets/js/slick.min.js"></script> 
-<script src="../assets/js/jquery.li-scroller.1.0.js"></script> 
-<script src="../assets/js/jquery.newsTicker.min.js"></script> 
-<script src="../assets/js/jquery.fancybox.pack.js"></script> 
-<script src="../assets/js/custom.js"></script>
+<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+<script src="{% static 'assets/js/wow.min.js' %}"></script>
+<script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'assets/js/slick.min.js' %}"></script>
+<script src="{% static 'assets/js/jquery.li-scroller.1.0.js' %}"></script>
+<script src="{% static 'assets/js/jquery.newsTicker.min.js' %}"></script>
+<script src="{% static 'assets/js/jquery.fancybox.pack.js' %}"></script>
+<script src="{% static 'assets/js/custom.js' %}"></script>
 </body>
-</html>
+</html>' %}
